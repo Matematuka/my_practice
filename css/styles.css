@@ -1,0 +1,19 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+p {
+  color: #717171;
+}
+
+h1,
+h2,
+h3 {
+  color: #4d4d4d;
+}
+
+button {
+  background-color: #4caf4f;
+  color: #fff;
+}
