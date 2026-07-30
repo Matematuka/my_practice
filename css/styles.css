@@ -1,72 +1,160 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: #fff;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p {
   color: #717171;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 h1,
 h2,
 h3 {
   color: #4d4d4d;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.22;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
+  font-weight: 500;
   background-color: #4caf4f;
   color: #fff;
   border: none;
 }
-/* 
-.header {
+
+img {
+  display: block;
+  max-width: 100%;
 }
+
+.header {
+  background-color: #f5f7fa;
+}
+
 .header-nav {
 }
+
 .header-nav-list {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #18191f;
 }
+
 .header-nav-item {
 }
+
 .header-auth-buttons {
+  font-size: 15px;
+  line-height: 1.33;
 }
-.header-login {
+
+.header-login button {
+  background-color: #f5f7fa;
+  color: #4caf4f;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 80px;
+  height: 40px;
+  text-align: center;
 }
-.header-signup {
+.header-signup button {
+  border-radius: 6px;
+  width: 94px;
+  height: 40px;
+  text-align: center;
 }
+
 .hero {
+  background-color: #f5f7fa;
 }
+
 .hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.19;
 }
+
+.hero-title span {
+  color: #4caf4f;
+}
+
 .hero-text {
 }
+
 .hero-button {
+  border-radius: 4px;
+  width: 128px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
 }
+
 .hero-img {
 }
 
 .clients {
 }
+
 .clients-title {
+  text-align: center;
 }
+
 .clients-text {
+  text-align: center;
 }
+
 .clients-list {
 }
 .clients-item {
 }
 .system {
 }
+
 .system-title {
+  text-align: center;
 }
+
 .system-text {
+  text-align: center;
 }
+
 .system-list {
 }
 .system-item {
 }
+
 .syste-item-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  text-align: center;
 }
+
 .system-item-text {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
 }
 
 .pixel {
@@ -75,11 +163,22 @@ button {
 }
 .pixel-title {
 }
+
 .pixel-text {
+  font-size: 14px;
+  line-height: 1.43;
 }
+
 .pixel-btn {
+  border-radius: 4px;
+  width: 151px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
 }
 .statistics {
+  background-color: #f5f7fa;
 }
 .statistics-title {
 }
@@ -104,6 +203,7 @@ button {
 .design-btn {
 }
 .customers {
+  background-color: #f5f7fa;
 }
 .customers-img {
 }
@@ -132,6 +232,7 @@ button {
 .caring-list-text {
 }
 .footer {
+  background-color: #f5f7fa;
 }
 .footer-title {
 }
@@ -158,4 +259,4 @@ button {
 .footer-support-item {
 }
 .footer-subscribe {
-} */
+}
