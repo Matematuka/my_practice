@@ -177,9 +177,11 @@ img {
   line-height: 1.5;
   text-align: center;
 }
+
 .statistics {
   background-color: #f5f7fa;
 }
+
 .statistics-title {
 }
 .statistics-text {
@@ -188,8 +190,14 @@ img {
 }
 .statistics-item {
 }
+
 .statistics-number {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: #4d4d4d;
 }
+
 .statistics-description {
 }
 .design {
@@ -198,42 +206,91 @@ img {
 }
 .design-title {
 }
+
 .design-text {
+  line-height: 1.43;
 }
+
 .design-btn {
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  width: 151px;
+  height: 52px;
 }
+
 .customers {
   background-color: #f5f7fa;
 }
+
 .customers-img {
 }
+
 .customers-text {
+  font-weight: 500;
 }
+
+.customers span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #4caf4f;
+}
+
 .customers-sign {
+  color: #89939e;
 }
+
 .customers-list {
 }
 .customers-item {
 }
+
 .all-customers {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #4caf4f;
 }
+
 .caring {
 }
+
 .caring-title {
+  text-align: center;
 }
+
 .caring-text {
+  text-align: center;
 }
+
 .caring-list {
 }
 .caring-item {
 }
+
+.caring-item a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #4caf4f;
+}
+
 .caring-img {
 }
+
 .caring-list-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
 }
+
 .footer {
   background-color: #f5f7fa;
 }
+
 .footer-title {
 }
 .footer-demo {
